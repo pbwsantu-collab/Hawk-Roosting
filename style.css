@@ -103,6 +103,7 @@ u{text-decoration-color:var(--amber);text-decoration-thickness:2px;text-underlin
 
 /* ---- word popup ---- */
 .popup{position:fixed;inset:0;background:rgba(18,38,26,.55);display:flex;align-items:flex-end;justify-content:center;z-index:50;}
+.popup[hidden]{display:none !important;}
 .popup-card{
   background:var(--white);width:100%;max-width:520px;border-radius:18px 18px 0 0;
   padding:22px 20px 26px;position:relative;box-shadow:0 -6px 24px rgba(0,0,0,.25);
